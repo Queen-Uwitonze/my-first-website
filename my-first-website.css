@@ -1,6 +1,7 @@
 h1{
-    color-adjust: blue;
+    color-adjust: rgb(179, 179, 243);
 }
 body{
     font-style: italic;
+    background-color: "#108484";
 }
