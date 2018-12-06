@@ -8,6 +8,7 @@ nav{
 }
 nav>ul{
     margin-right: 20%;
+    flex-direction: column;
 }
 nav>ul>li{
     background-color: beige;
