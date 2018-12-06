@@ -1,5 +1,19 @@
 
 body{
     font-style: italic;
-    background-color: rgb(226, 226, 88);
+    background-color:grey;
+}
+nav{
+    display: flex;
+}
+nav>ul{
+    margin-right: 20%;
+}
+nav>ul>li{
+    background-color: beige;
+    color:beige;
+}
+nav>ul>li>a:hover{
+    color: bisque
+
 }
