@@ -3,7 +3,9 @@ body{
     font-style: italic;
     background-color:white;
     padding:10px;
-    border: 2px; 
+    border: 2px;
+    font-size: 2em ;
+    color:grey
 
 }
 
@@ -24,17 +26,33 @@ h1{
       opacity: 0.7;
   }
   
-  .fa-gmail {
-    background: #3B5998;
+  .fa-facebook {
     color: rgb(175, 30, 180);
   }
-  .fa-linkedin {
-    background: #007bb5;
+  .fa-github {
+
     color:  rgb(175, 30, 180);
   }
   .fa-instagram{
-    color:  rgb(175, 30, 180); 
+    color:  #af1eb4; 
+  }
+  .fa-linkedin{
+    color:  rgb(175, 30, 180);
   }
   .social{
       text-align: center;
+  }
+  #image{
+      background-image: url('/home/wecode/Downloads/profolio.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+      width: 50%;
+      float:left;
+      margin-right: 5px;
+      margin-bottom: 3px;
+      
+  }
+  a{
+      color: rgb(175, 30, 180)
   }
