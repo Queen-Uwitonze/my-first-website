@@ -4,13 +4,14 @@ body{
     background-color:#e5eaee;
     font-size: 1.1em ;
     text-transform: none;
-    letter-spacing: 0em;
+    letter-spacing: 0.1em;
     font-style: normal;
     color: #252525;
     margin-left:0%;
     margin-right: 0%;
-    margin-top:0%;
-    margin-bottom:0%;
+    margin-top:-10px;
+    padding-top: 0px;
+    line-height: 1.2em;
    
 
 }
