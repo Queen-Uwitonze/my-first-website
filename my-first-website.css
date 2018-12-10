@@ -1,14 +1,20 @@
 
 body{
-    font-style: italic;
-    background-color:white;
-    padding:10px;
-    border: 2px;
-    font-size: 2em ;
-    color:grey
+    font-family:"adobe-caslon-pro";
+    background-color:#e5eaee;
+    font-size: 1.1em ;
+    text-transform: none;
+    letter-spacing: 0em;
+    font-style: normal;
+    color: #252525;
+    margin-left:0%;
+    margin-right: 0%;
+    margin-top:0%;
+    margin-bottom:0%;
+   
 
 }
-
+    
 h1{
     text-align: center-end;
 }
@@ -27,32 +33,37 @@ h1{
   }
   
   .fa-facebook {
-    color: rgb(175, 30, 180);
+    color:rgb(160, 117, 117)
   }
   .fa-github {
 
-    color:  rgb(175, 30, 180);
-  }
+    color:  rgb(160, 117, 117)
+}
   .fa-instagram{
-    color:  #af1eb4; 
-  }
+    color:  rgb(160, 117, 117)
+} 
+  
   .fa-linkedin{
-    color:  rgb(175, 30, 180);
-  }
+    color: rgb(160, 117, 117)
+}
+  
   .social{
       text-align: center;
+      background-color: aliceblue;
+      margin-left:0%;
   }
   #image{
       background-image: url('/home/wecode/Downloads/profolio.jpg');
       background-repeat: no-repeat;
       background-size: cover;
-      height: 500px;
+      height: 570px;
       width: 50%;
+      position: relative;
       float:left;
-      margin-right: 5px;
-      margin-bottom: 3px;
-      
+      margin-right: 50px;
+    
   }
   a{
-      color: rgb(175, 30, 180)
-  }
+      color:rgb(160, 117, 117)
+    }
+  
