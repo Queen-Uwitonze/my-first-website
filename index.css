@@ -53,16 +53,13 @@ h1{
       background-color: aliceblue;
       margin-left:0%;
   }
-  #image{
-      background-image: url('/home/wecode/Downloads/profolio.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 570px;
-      width: 50%;
-      position: relative;
+  picture{
       float:left;
-      margin-right: 50px;
-    
+      top:0px;
+      margin-right: 4%;
+      width:600px;
+      height:430px
+      
   }
   a{
       color:rgb(160, 117, 117)
