@@ -1,7 +1,8 @@
 
 body{
-    font-family:"adobe-caslon-pro";
-    background-color:#e5eaee;
+    font-family: 'Amiri', serif;
+    font-family: 'Neuton', serif;
+    background-color:black;
     font-size: 1.1em ;
     text-transform: none;
     letter-spacing: 0.1em;
@@ -12,18 +13,28 @@ body{
     margin-top:-10px;
     padding-top: 0px;
     line-height: 1.2em;
+    padding:30px;
+    color:white
    
 
 }
     
 h1{
-    text-align: center-end;
+    height: 10em;
+    position: relative;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 20%;
 }
 
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 10px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -64,4 +75,58 @@ h1{
   a{
       color:rgb(160, 117, 117)
     }
+.image{
+    background-image:url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.projects:after {
+    content: "";
+    display: table;
+    clear: both;
+    background-color: black
+  }
+
+.columnfour {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    margin-right: 22px
+  }
+  .columnthree {
+    float: right;
+    width: 25%;
+    padding: 10px;
+    margin-right: 2px
+  }
+  .columnone {
   
+        float: left;
+        width: 25%;
+        padding: 10px;
+        margin-right: 2px
+      }
+      .columntwo{
+        float: right;
+        width: 25%;
+        padding: 10px;
+        margin-right: 2px
+      }
+  @media screen and (max-width: 900px) {
+    .column  {
+      width: 50%;
+    }
+  }
+  
+.self{
+    background-color: darkcyan;
+    height: 700px;
+    width:100%;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15%;
+    padding-right: 50px;
+    
+
+}
