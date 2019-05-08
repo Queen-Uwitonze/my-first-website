@@ -1,89 +1,136 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Queen's Profolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link href="https://fonts.googleapis.com/css?family=Amiri|Neuton" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <title>Queen's Profolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="index.css"/>
     
-    </head>
-    <body>
-        <div class="image">
+  </head>
 
-            <!-- <img src="https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" style="width:100%;" height="600px"> -->
-            <center><h1 ><strong>Queen Uwitonze</strong></h1>
-                <p>Am passion about software developping.</p>
-             
-            </center>
-
-        </div><br>
-        
-        <div class="description">
-           
-            
-            <div class="self">     
-                 <!--introduction about myself-->
-                 <h2 text-align: center>About me</h2>
-                 <p text-align: center><strong>Queen Uwitonze i am a Software Engineer.I strive to build immersive and beautiful web applications through 
-                     carefully crafted code and user-centric design.</strong></p>
-            </div ><br>
-            <div class="proj">
-                <center><h2>Projects</h2></center>
-            </div>
-            <div class="projects">
-                <div class="columnfour" style="background-color:#bbb;">
-                    <h3>personal_gallery</h3>
-                    <img src="/home/wecode/Pictures/Screenshot from 2019-04-25 11-19-01.png" width="400px">
-                    <p>PhotoGallery is a simple web application to show beautiful pictures. Users get to view photos updated by the site admin. Users can see photos based on the location, by clicking on the listed locations in the menu. They can also copy the link to a photo to paste at their discretion.</p>
-                    <a href="https://github.com/Queen-Uwitonze/personal_gallery">Link to Github</a><br>
-                    <a href="https://queenapp.herokuapp.com/">view</a>
-                </div>
-                
-                <div class="columnthree" style="background-color:#aaa;">
-                    <h3>Tringle Tracker</h3>
-                    <img src="/home/wecode/Pictures/Screenshot from 2019-04-25 11-37-09.png" width="400px">
-                    <p> I will be building an application that will help us know whether a triangle is isosceles(when it has two eqwals sides or angles), equilateral(when it has three equals sides or angles), scalene(when sides or angles are not equals) or NOT a triangle at all</p>
-                    <a href="https://github.com/Queen-Uwitonze/triangle-track">Link to Github</a><br>
-                    <a href="https://queen-uwitonze.github.io/triangle-track/">view</a>
-            
-                </div>
-                <div class="columnone"style="background-color:#bbb;" >
-                    <h3>Quiz-Board</h3>
-                    <img src="/home/wecode/Pictures/Screenshot from 2019-04-25 12-56-47.png" width="400px">
-                    <p>preparing a quiz board for student </p>
-                    <a href="https://github.com/Queen-Uwitonze/Quiz-Board">Link to Github</a><br>
-                    <a href="https://queen-uwitonze.github.io/Quiz-Board/">view</a>
-            
-                </div><br>
-
-                <div class="columntwo" style="background-color:#aaa;">
-                    
-                    <h3>Github-search-user</h3>
-                    <img src="/home/wecode/Pictures/Screenshot from 2019-04-25 11-40-41.png" width="300px">
-                    <p>show how to search on github using http (searching for every person who is on github).</p>
-                    <a href="https://github.com/Queen-Uwitonze/django_gallery">Link to Github</a><br>
-                    <a href="https://queenapp.herokuapp.com/">view</a>
-
-                </div>
-            </div>
-                <div class="skills">
-                    <center><h2>Skills </h2>
-                    <h3><strong>HTML and CSS</strong></h3>
-                    <h3><strong>PYTHON and Django</strong></h3>
-                </center>
-                </div>
-            
-                <div class="social">
-                    <p>Contact from these social media</p>
-                    <a href="https://www.facebook.com/Kabengera Queen" class="fa fa-facebook"></a>
-                    <a href="https://www.linkedin.com/uwitonze queen" class="fa fa-linkedin"></a>
-                    <a href="https://www.instagram.com/kabengeraqueen" class="fa fa-instagram"></a>
-                    <a href="https://github.com/Queen-Uwitonze" class="fa fa-github"></a>
-                    <p>Copyright &copy; 2018 by Queen.All right reserved.</p>
-                </div>
+  <body class="w3-light-grey w3-content" style="max-width:1600px">
+    <!-- Sidebar/menu -->
+    <div class="navbar" >
+      <a class="active" href="#home">Home</a>
+      <a class="active" href="about.html">About</a> 
+      <a href="projects.html">Projects</a> 
+      <a href="#">Contact</a> 
+      
+    </div>
+    
+    <!-- Header -->
+    <div id="home">
+      <header class="w3-display-container w3-content w3-wide" style="max-width:80%px;">
+        <img class="w3-image" src="https://www.itqlick.com/Blog/wp-content/uploads/2015/07/abstract-internet-background_z1eeuQ_d.jpg" alt="Architecture" width="116%" height="750px">
+        <div class="w3-display-middle w3-margin-top w3-center">
+          <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b></b></span> <span class="w3-hide-small w3-text-light-grey" style="font-size:50px;">Hello!Am Queen Uwitonze,Full Stack Developper </span></h1>
+    
         </div>
+      </header>
+    </div>
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div
+      class="w3-overlay w3-hide-large w3-animate-opacity"
+      onclick="w3_close()"
+      style="cursor:pointer"
+      title="close side menu"
+      id="myOverlay"
+    ></div>
+
     
-    </body>
+
+      <!-- Pagination -->
+      <div class="w3-center w3-padding-32">
+        <div class="w3-bar">
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+          <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+          <a href="about.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+          <a href="projects.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+          <a href="technicalskills.html" class="w3-bar-item w3-button w3-hover-black">4</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-black">»</a>
+        </div>
+      </div>
+
+      
+       
+     
+<!-- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5">
+
+  <div style="background-color: rgb(11, 176, 241)">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0" >
+          <p class="mb-0">Get connected with me on social networks!</p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+       <center> <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+          <!-- Facebook -->
+          <a class="fb-ic" href="https://www.facebook.com/Kabengera Queen">
+            <i class="fa fa-facebook-f white-text mr-4"> </i>
+          </a>
+          <!-- github -->
+          <a class="tw-ic" href="https://github.com/Queen-Uwitonze">
+            <i class="fa fa-github white-text mr-4" > </i>
+          </a>
+          
+          <!--Linkedin -->
+          <a class="li-ic" href="https://www.linkedin.com/uwitonze queen">
+            <i class="fa fa-linkedin white-text mr-4" > </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic" href="https://www.instagram.com/kabengeraqueen">
+            <i class="fa fa-instagram white-text" > </i>
+          </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+</center>
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
+
+    
+        <!-- Links -->
+        <h4 class="text-uppercase font-weight-bold">Contact</h4>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fa fa-home mr-3"></i> Kigali, Rwanda</p>
+        <p>
+          <i class="fa fa-envelope mr-3"></i> uwitonzeq@gmail.com</p>
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> Queen Uwitonze</a>
+  </div>
+  <!-- Copyright -->
+
+
+  </body>
 </html>

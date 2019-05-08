@@ -1,0 +1,186 @@
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+/>
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link
+  href="https://fonts.googleapis.com/css?family=Amiri|Neuton"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+<link rel="stylesheet" type="text/css" href="index.css" />
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+  <div class="navbar">
+    <a class="active" href="#home">Home</a>
+    <a class="active" href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="#">Contact</a>
+  </div>
+  <center>
+    <h2 style="font-size:30px;"><b>My Projects</b></h2>
+  </center>
+
+  <div class="w3-content w3-display-container">
+    <div class="w3-display-container mySlides">
+      <a href="gallery.html"
+        ><p><b>personal_gallery</b></p></a
+      >
+      <img
+        src="/home/wecode/Pictures/Screenshot from 2019-04-30 16-25-25.png"
+        style="width:100%;height: 700px"
+      />
+      <div
+        class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"
+      ></div>
+    </div>
+
+    <div class="w3-display-container mySlides">
+      <a href="triangle.html"
+        ><p><b>Tringle Tracker</b></p></a
+      >
+      <img
+        src="/home/wecode/Pictures/Screenshot from 2019-04-30 16-29-02.png"
+        style="width:100%;height: 700px"
+      />
+      <div
+        class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black"
+      ></div>
+    </div>
+
+    <div class="w3-display-container mySlides">
+      <a href="github.html"
+        ><p><b>Github search</b></p></a
+      >
+      <img
+        src="/home/wecode/Pictures/Screenshot from 2019-04-30 16-34-43.png"
+        style="width:100%;height: 700px"
+      />
+      <div
+        class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black"
+      ></div>
+    </div>
+
+    <div class="w3-display-container mySlides">
+      <a href="quiz.html"
+        ><p><b>Quiz-Board</b></p></a
+      >
+      <img
+        src="/home/wecode/Pictures/Screenshot from 2019-04-30 16-30-51.png"
+        style="width:100%;height: 700px"
+      />
+      <div
+        class="w3-display-topright w3-large w3-container w3-padding-16 w3-black"
+      ></div>
+    </div>
+    <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">
+      &#10094;
+    </button>
+    <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">
+      &#10095;
+    </button>
+  </div>
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs((slideIndex += n));
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = x.length;
+      }
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex - 1].style.display = "block";
+    }
+  </script>
+  <!-- Footer -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="projects.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a
+        href="technicalskills.html"
+        class="w3-bar-item w3-button w3-hover-black"
+        >4</a
+      >
+      <a href="#contact" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  <footer class="page-footer font-small blue-grey lighten-5">
+    <div style="background-color: rgb(82, 195, 240)">
+      <div class="container">
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <p class="mb-0" style="max-width:1600px">
+              Get connected with me on social networks!
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+            <!-- Facebook -->
+            <a class="fb-ic" href="https://www.facebook.com/Kabengera Queen">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- github -->
+            <a class="tw-ic" href="https://github.com/Queen-Uwitonze">
+              <i class="fab fa-github white-text mr-4"> </i>
+            </a>
+
+            <!--Linkedin -->
+            <a class="li-ic" href="https://www.linkedin.com/uwitonze queen">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic" href="https://www.instagram.com/kabengeraqueen">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+      </div>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3 dark-grey-text">
+        <!-- Links -->
+        <h4 class="text-uppercase font-weight-bold">Contact</h4>
+        <hr
+          class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto"
+          style="width: 60px;"
+        />
+        <p><i class="fas fa-home mr-3"></i> Kigali, Rwanda</p>
+        <p><i class="fas fa-envelope mr-3"></i> uwitonzeq@gmail.com</p>
+      </div>
+      <!-- Grid row -->
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      © 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> Queen Uwitonze</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>

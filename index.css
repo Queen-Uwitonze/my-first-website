@@ -1,132 +1,159 @@
-
-body{
-    font-family: 'Amiri', serif;
-    font-family: 'Neuton', serif;
-    background-color:black;
-    font-size: 1.1em ;
-    text-transform: none;
-    letter-spacing: 0.1em;
-    font-style: normal;
-    color: #252525;
-    margin-left:0%;
-    margin-right: 0%;
-    margin-top:-10px;
-    padding-top: 0px;
-    line-height: 1.2em;
-    padding:30px;
-    color:white
-   
-
+body {
+  font-family: "Amiri", serif;
+  font-family: "Neuton", serif;
+  background-color: black;
+  font-size: 20px;
+  text-transform: none;
+  letter-spacing: 0.1em;
+  font-style: normal;
+  color: #252525;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: -10px;
+  padding-top: 0px;
+  line-height: 1.2em;
+  padding: 30px;
+  color: white;
 }
-    
-h1{
-    height: 10em;
-    position: relative;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 20%;
+
+h1 {
+  height: 10em;
+  position: relative;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 20%;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 10px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    color:rgb(160, 117, 117)
-  }
-  .fa-github {
+  padding: 20px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
 
-    color:  rgb(160, 117, 117)
+.fa:hover {
+  opacity: 0.7;
 }
-  .fa-instagram{
-    color:  rgb(160, 117, 117)
-} 
-  
-  .fa-linkedin{
-    color: rgb(160, 117, 117)
+
+.fa-facebook {
+  color: rgb(160, 117, 117);
 }
-  
-  .social{
-      text-align: center;
-      background-color: aliceblue;
-      margin-left:0%;
-  }
-  picture{
-      float:left;
-      top:0px;
-      margin-right: 4%;
-      width:600px;
-      height:430px
-      
-  }
-  a{
-      color:rgb(160, 117, 117)
-    }
-.image{
-    background-image:url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    background-repeat:no-repeat;
-    background-size: cover;
-    height: 700px;
+.fa-github {
+  color: rgb(160, 117, 117);
+}
+.fa-instagram {
+  color: rgb(160, 117, 117);
+}
+
+.fa-linkedin {
+  color: rgb(160, 117, 117);
+}
+
+.social {
+  text-align: center;
+  background-color: aliceblue;
+  margin-left: 0%;
+}
+picture {
+  float: left;
+  top: 0px;
+  margin-right: 4%;
+  width: 600px;
+  height: 430px;
+}
+a {
+  color: rgb(160, 117, 117);
+}
+.image {
+  background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
 }
 .projects:after {
-    content: "";
-    display: table;
-    clear: both;
-    background-color: black
-  }
+  content: "";
+  display: table;
+  clear: both;
+  background-color: black;
+}
 
 .columnfour {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    margin-right: 22px
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin-right: 22px;
+}
+.columnthree {
+  float: right;
+  width: 25%;
+  padding: 10px;
+  margin-right: 2px;
+}
+.columnone {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin-right: 2px;
+}
+.columntwo {
+  float: right;
+  width: 25%;
+  padding: 10px;
+  margin-right: 2px;
+}
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
   }
-  .columnthree {
-    float: right;
-    width: 25%;
-    padding: 10px;
-    margin-right: 2px
-  }
-  .columnone {
-  
-        float: left;
-        width: 25%;
-        padding: 10px;
-        margin-right: 2px
-      }
-      .columntwo{
-        float: right;
-        width: 25%;
-        padding: 10px;
-        margin-right: 2px
-      }
-  @media screen and (max-width: 900px) {
-    .column  {
-      width: 50%;
-    }
-  }
-  
-.self{
-    background-color: darkcyan;
-    height: 700px;
-    width:100%;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 15%;
-    padding-right: 50px;
-    
+}
 
+.self {
+  background-color: darkcyan;
+  height: 700px;
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15%;
+  padding-right: 50px;
+}
+.mySlides {
+  display: none;
+}
+/* Style the navigation menu */
+.navbar {
+  width: 116%;
+  background-color: black;
+  overflow: auto;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
 }
